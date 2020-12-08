@@ -3,7 +3,7 @@ let str=0;
 let stl=0;
 let simvol="";
 let stroka="";
-do {
+for (;str<8;str++) {
     while (stl<8) {
         if (str%2==0) {
             if (stl%2==0) {
@@ -27,6 +27,5 @@ do {
         stl=0;
         stroka=stroka+"\n"
     }
-    str++
-} while (str<8)
+}
 console.log(stroka)

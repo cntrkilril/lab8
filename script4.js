@@ -1,33 +1,33 @@
-let chislo1=prompt("Введите 1 число");
-let chislo2=prompt("Введите 2 число");
-let chislo3=prompt("Введите 3 число");
-let t=0;
-let n1=chislo1;
-let n2=chislo2;
-let n3=chislo3;
-if (chislo1<=chislo3 && chislo3<=chislo2) {
-    n1=chislo1;
-    n2=chislo3;
-    n3=chislo2;
+console.log("Задача 4")
+let chis1=Number(prompt("Введите 1 число"));
+let chis2=Number(prompt("Введите 2 число"));
+let chis3=Number(prompt("Введите 3 число"));
+let n1=chis1;
+let n2=chis2;
+let n3=chis3;
+if (chis1<=chis3 && chis3<=chis2) {
+    n1=chis1;
+    n2=chis3;
+    n3=chis2;
 } 
-if (chislo2<=chislo1 && chislo1<=chislo3) {
-    n1=chislo2;
-    n2=chislo1;
-    n3=chislo3;
+if (chis2<=chis1 && chis1<=chis3) {
+    n1=chis2;
+    n2=chis1;
+    n3=chis3;
 } 
-if (chislo2<=chislo3 && chislo3<=chislo1) {
-    n1=chislo2;
-    n2=chislo3;
-    n3=chislo1;
+if (chis2<=chis3 && chis3<=chis1) {
+    n1=chis2;
+    n2=chis3;
+    n3=chis1;
 } 
-if (chislo3<=chislo1 && chislo1<=chislo2) {
-    n1=chislo3;
-    n2=chislo1;
-    n3=chislo2;
+if (chis3<=chis1 && chis1<=chis2) {
+    n1=chis3;
+    n2=chis1;
+    n3=chis2;
 } 
-if (chislo3<=chislo2 && chislo2<=chislo1) {
-    n1=chislo3;
-    n2=chislo2;
-    n3=chislo1;
+if (chis3<=chis2 && chis2<=chis1) {
+    n1=chis3;
+    n2=chis2;
+    n3=chis1;
 } 
 console.log(n1+" "+n2+" "+n3)
